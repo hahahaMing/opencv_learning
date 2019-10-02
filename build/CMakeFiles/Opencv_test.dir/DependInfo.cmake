@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ming/git/opencv_learning/main.cpp" "/home/ming/git/opencv_learning/cmake-build-debug/CMakeFiles/DisplayImage.dir/main.cpp.o"
+  "/home/ming/git/opencv_learning/v02_Read_image.cpp" "/home/ming/git/opencv_learning/build/CMakeFiles/Opencv_test.dir/v02_Read_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include/opencv4"
+  "../"
   )
 
 # Targets to which this target links.
