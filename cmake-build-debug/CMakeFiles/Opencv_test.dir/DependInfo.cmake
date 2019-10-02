@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ming/git/opencv_learning/v03_Image_binarization.cpp" "/home/ming/git/opencv_learning/cmake-build-debug/CMakeFiles/Opencv_test.dir/v03_Image_binarization.cpp.o"
+  "/home/ming/git/opencv_learning/v04_Video_recorder.cpp" "/home/ming/git/opencv_learning/cmake-build-debug/CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

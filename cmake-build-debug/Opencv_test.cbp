@@ -88,7 +88,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ming/git/opencv_learning/v03_Image_binarization.cpp">
+		<Unit filename="/home/ming/git/opencv_learning/v04_Video_recorder.cpp">
 			<Option target="Opencv_test"/>
 		</Unit>
 		<Unit filename="/home/ming/git/opencv_learning/CMakeLists.txt">

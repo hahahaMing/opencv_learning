@@ -7,6 +7,7 @@ include_directories("${PROJECT_SOURCE_DIR}")
 
 #add_executable( Opencv_test v01_Open_camera.cpp)
 #add_executable( Opencv_test v02_Read_image.cpp )
-add_executable( Opencv_test v03_Image_binarization.cpp)
+#add_executable( Opencv_test v03_Image_binarization.cpp)
+add_executable( Opencv_test v04_Video_recorder.cpp)
 
 target_link_libraries( Opencv_test ${OpenCV_LIBS} )

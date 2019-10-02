@@ -123,32 +123,32 @@ Opencv_test/fast:
 	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/build
 .PHONY : Opencv_test/fast
 
-v03_Image_binarization.o: v03_Image_binarization.cpp.o
+v04_Video_recorder.o: v04_Video_recorder.cpp.o
 
-.PHONY : v03_Image_binarization.o
+.PHONY : v04_Video_recorder.o
 
 # target to build an object file
-v03_Image_binarization.cpp.o:
-	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v03_Image_binarization.cpp.o
-.PHONY : v03_Image_binarization.cpp.o
+v04_Video_recorder.cpp.o:
+	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.o
+.PHONY : v04_Video_recorder.cpp.o
 
-v03_Image_binarization.i: v03_Image_binarization.cpp.i
+v04_Video_recorder.i: v04_Video_recorder.cpp.i
 
-.PHONY : v03_Image_binarization.i
+.PHONY : v04_Video_recorder.i
 
 # target to preprocess a source file
-v03_Image_binarization.cpp.i:
-	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v03_Image_binarization.cpp.i
-.PHONY : v03_Image_binarization.cpp.i
+v04_Video_recorder.cpp.i:
+	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.i
+.PHONY : v04_Video_recorder.cpp.i
 
-v03_Image_binarization.s: v03_Image_binarization.cpp.s
+v04_Video_recorder.s: v04_Video_recorder.cpp.s
 
-.PHONY : v03_Image_binarization.s
+.PHONY : v04_Video_recorder.s
 
 # target to generate assembly for a file
-v03_Image_binarization.cpp.s:
-	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v03_Image_binarization.cpp.s
-.PHONY : v03_Image_binarization.cpp.s
+v04_Video_recorder.cpp.s:
+	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.s
+.PHONY : v04_Video_recorder.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Opencv_test"
 	@echo "... edit_cache"
-	@echo "... v03_Image_binarization.o"
-	@echo "... v03_Image_binarization.i"
-	@echo "... v03_Image_binarization.s"
+	@echo "... v04_Video_recorder.o"
+	@echo "... v04_Video_recorder.i"
+	@echo "... v04_Video_recorder.s"
 .PHONY : help
 
 
