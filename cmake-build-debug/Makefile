@@ -123,32 +123,32 @@ Opencv_test/fast:
 	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/build
 .PHONY : Opencv_test/fast
 
-v04_Video_recorder.o: v04_Video_recorder.cpp.o
+v06_Find_center.o: v06_Find_center.cpp.o
 
-.PHONY : v04_Video_recorder.o
+.PHONY : v06_Find_center.o
 
 # target to build an object file
-v04_Video_recorder.cpp.o:
-	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.o
-.PHONY : v04_Video_recorder.cpp.o
+v06_Find_center.cpp.o:
+	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.o
+.PHONY : v06_Find_center.cpp.o
 
-v04_Video_recorder.i: v04_Video_recorder.cpp.i
+v06_Find_center.i: v06_Find_center.cpp.i
 
-.PHONY : v04_Video_recorder.i
+.PHONY : v06_Find_center.i
 
 # target to preprocess a source file
-v04_Video_recorder.cpp.i:
-	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.i
-.PHONY : v04_Video_recorder.cpp.i
+v06_Find_center.cpp.i:
+	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.i
+.PHONY : v06_Find_center.cpp.i
 
-v04_Video_recorder.s: v04_Video_recorder.cpp.s
+v06_Find_center.s: v06_Find_center.cpp.s
 
-.PHONY : v04_Video_recorder.s
+.PHONY : v06_Find_center.s
 
 # target to generate assembly for a file
-v04_Video_recorder.cpp.s:
-	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.s
-.PHONY : v04_Video_recorder.cpp.s
+v06_Find_center.cpp.s:
+	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.s
+.PHONY : v06_Find_center.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Opencv_test"
 	@echo "... edit_cache"
-	@echo "... v04_Video_recorder.o"
-	@echo "... v04_Video_recorder.i"
-	@echo "... v04_Video_recorder.s"
+	@echo "... v06_Find_center.o"
+	@echo "... v06_Find_center.i"
+	@echo "... v06_Find_center.s"
 .PHONY : help
 
 

@@ -57,27 +57,27 @@ include CMakeFiles/Opencv_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Opencv_test.dir/flags.make
 
-CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.o: CMakeFiles/Opencv_test.dir/flags.make
-CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.o: ../v04_Video_recorder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ming/git/opencv_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.o -c /home/ming/git/opencv_learning/v04_Video_recorder.cpp
+CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.o: CMakeFiles/Opencv_test.dir/flags.make
+CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.o: ../v06_Find_center.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ming/git/opencv_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.o -c /home/ming/git/opencv_learning/v06_Find_center.cpp
 
-CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ming/git/opencv_learning/v04_Video_recorder.cpp > CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.i
+CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ming/git/opencv_learning/v06_Find_center.cpp > CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.i
 
-CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ming/git/opencv_learning/v04_Video_recorder.cpp -o CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.s
+CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ming/git/opencv_learning/v06_Find_center.cpp -o CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.s
 
 # Object files for target Opencv_test
 Opencv_test_OBJECTS = \
-"CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.o"
+"CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.o"
 
 # External object files for target Opencv_test
 Opencv_test_EXTERNAL_OBJECTS =
 
-Opencv_test: CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.o
+Opencv_test: CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.o
 Opencv_test: CMakeFiles/Opencv_test.dir/build.make
 Opencv_test: /usr/local/lib/libopencv_gapi.so.4.1.2
 Opencv_test: /usr/local/lib/libopencv_stitching.so.4.1.2

@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ming/git/opencv_learning -isystem /usr/local/include/opencv4 
+CXX_INCLUDES = -I/home/ming/git/opencv_learning -I/home/ming/git/opencv_learning/include -isystem /usr/local/include/opencv4 
 

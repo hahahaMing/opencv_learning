@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Opencv_test.dir/v04_Video_recorder.cpp.o"
+  "CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.o"
   "Opencv_test"
   "Opencv_test.pdb"
 )

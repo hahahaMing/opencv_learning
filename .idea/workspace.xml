@@ -12,7 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f457c97e-4443-4e69-a0c8-ff4fc2192dc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/v04_Video_recorder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/v01_Video_binarization.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/one_shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v05_Select_box.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v06_Find_center.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/CXX.includecache" afterDir="false" />
@@ -21,13 +25,12 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/v02_Read_image.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opencv_test.dir/v02_Read_image.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Opencv_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Opencv_test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Opencv_test.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Opencv_test.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v01_Open_camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/v01_Open_camera.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v02_Read_image.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/v02_Read_image.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +91,14 @@
       <option name="presentableId" value="Default" />
       <updated>1570015722931</updated>
       <workItem from="1570015725958" duration="1801000" />
-      <workItem from="1570018330896" duration="4721000" />
+      <workItem from="1570018330896" duration="4902000" />
+      <workItem from="1570063223116" duration="1489000" />
+      <workItem from="1570074536891" duration="643000" />
+      <workItem from="1570090953592" duration="1049000" />
+      <workItem from="1570098419017" duration="84000" />
+      <workItem from="1570107929650" duration="13000" />
+      <workItem from="1570596248476" duration="241000" />
+      <workItem from="1570621864791" duration="3168000" />
     </task>
     <servers />
   </component>

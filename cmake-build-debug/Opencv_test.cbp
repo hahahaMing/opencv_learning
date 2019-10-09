@@ -35,6 +35,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/ming/git/opencv_learning"/>
+					<Add directory="/home/ming/git/opencv_learning/include"/>
 					<Add directory="/usr/local/include/opencv4"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -60,6 +61,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/ming/git/opencv_learning"/>
+					<Add directory="/home/ming/git/opencv_learning/include"/>
 					<Add directory="/usr/local/include/opencv4"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -88,7 +90,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ming/git/opencv_learning/v04_Video_recorder.cpp">
+		<Unit filename="/home/ming/git/opencv_learning/v06_Find_center.cpp">
 			<Option target="Opencv_test"/>
 		</Unit>
 		<Unit filename="/home/ming/git/opencv_learning/CMakeLists.txt">
