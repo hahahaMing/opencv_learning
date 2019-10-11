@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/85/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/88/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/85/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/88/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ming/git/opencv_learning/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/85/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/88/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/85/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/88/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ Opencv_test/fast:
 	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/build
 .PHONY : Opencv_test/fast
 
-v06_Find_center.o: v06_Find_center.cpp.o
+main.o: main.cpp.o
 
-.PHONY : v06_Find_center.o
+.PHONY : main.o
 
 # target to build an object file
-v06_Find_center.cpp.o:
-	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.o
-.PHONY : v06_Find_center.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-v06_Find_center.i: v06_Find_center.cpp.i
+main.i: main.cpp.i
 
-.PHONY : v06_Find_center.i
+.PHONY : main.i
 
 # target to preprocess a source file
-v06_Find_center.cpp.i:
-	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.i
-.PHONY : v06_Find_center.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-v06_Find_center.s: v06_Find_center.cpp.s
+main.s: main.cpp.s
 
-.PHONY : v06_Find_center.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-v06_Find_center.cpp.s:
-	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/v06_Find_center.cpp.s
-.PHONY : v06_Find_center.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/Opencv_test.dir/build.make CMakeFiles/Opencv_test.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Opencv_test"
 	@echo "... edit_cache"
-	@echo "... v06_Find_center.o"
-	@echo "... v06_Find_center.i"
-	@echo "... v06_Find_center.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

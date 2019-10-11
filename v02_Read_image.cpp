@@ -10,7 +10,8 @@ using namespace cv;
 
 int main(int argc,char **argv)
 {
-    Mat image = imread("/home/ming/git/opencv_learning/test.jpg");
+//    Mat image = imread("/home/ming/git/opencv_learning/test.jpg");
+    Mat image = imread("/home/ming/git/opencv_learning/data/Camera Roll/WIN_20190710_21_25_29_Pro.jpg");
     namedWindow("My Test");
     imshow("My Test", image);
     //腐蚀

@@ -6,12 +6,18 @@
 
 #IncludeRegexTransform: 
 
-/home/ming/git/opencv_learning/v06_Find_center.cpp
-opencv2/tracking.hpp
-/home/ming/git/opencv_learning/opencv2/tracking.hpp
-opencv2/opencv.hpp
+/home/ming/git/opencv_learning/main.cpp
+opencv2/core/core.hpp
+/home/ming/git/opencv_learning/opencv2/core/core.hpp
+opencv2/imgproc/imgproc.hpp
+/home/ming/git/opencv_learning/opencv2/imgproc/imgproc.hpp
+opencv2/calib3d/calib3d.hpp
+/home/ming/git/opencv_learning/opencv2/calib3d/calib3d.hpp
+opencv2/highgui/highgui.hpp
+/home/ming/git/opencv_learning/opencv2/highgui/highgui.hpp
+iostream
 -
-opencv2/tracking.hpp
+fstream
 -
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
@@ -21,6 +27,10 @@ opencv2/features2d.hpp
 /usr/local/include/opencv4/opencv2/opencv2/features2d.hpp
 opencv2/core/affine.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core/affine.hpp
+
+/usr/local/include/opencv4/opencv2/calib3d/calib3d.hpp
+opencv2/calib3d.hpp
+/usr/local/include/opencv4/opencv2/calib3d/opencv2/calib3d.hpp
 
 /usr/local/include/opencv4/opencv2/core.hpp
 opencv2/core/cvdef.h
@@ -86,15 +96,9 @@ opencv2/core/check.hpp
 opencv2/core/base.hpp
 -
 
-/usr/local/include/opencv4/opencv2/core/core_c.h
-opencv2/core/types_c.h
-/usr/local/include/opencv4/opencv2/core/opencv2/core/types_c.h
-cxcore.h
-/usr/local/include/opencv4/opencv2/core/cxcore.h
-cxcore.h
-/usr/local/include/opencv4/opencv2/core/cxcore.h
-opencv2/core/utility.hpp
-/usr/local/include/opencv4/opencv2/core/opencv2/core/utility.hpp
+/usr/local/include/opencv4/opencv2/core/core.hpp
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/core/opencv2/core.hpp
 
 /usr/local/include/opencv4/opencv2/core/cuda.hpp
 opencv2/core.hpp
@@ -337,24 +341,6 @@ opencv2/core/cvstd.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core/cvstd.hpp
 opencv2/core/matx.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core/matx.hpp
-
-/usr/local/include/opencv4/opencv2/core/types_c.h
-ipl.h
--
-ipl/ipl.h
--
-opencv2/core/cvdef.h
-/usr/local/include/opencv4/opencv2/core/opencv2/core/cvdef.h
-assert.h
--
-stdlib.h
--
-string.h
--
-float.h
--
-opencv2/core.hpp
-/usr/local/include/opencv4/opencv2/core/opencv2/core.hpp
 
 /usr/local/include/opencv4/opencv2/core/utility.hpp
 opencv2/core.hpp
@@ -862,6 +848,10 @@ opencv2/imgcodecs.hpp
 opencv2/videoio.hpp
 /usr/local/include/opencv4/opencv2/opencv2/videoio.hpp
 
+/usr/local/include/opencv4/opencv2/highgui/highgui.hpp
+opencv2/highgui.hpp
+/usr/local/include/opencv4/opencv2/highgui/opencv2/highgui.hpp
+
 /usr/local/include/opencv4/opencv2/imgcodecs.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
@@ -870,9 +860,9 @@ opencv2/core.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
 
-/usr/local/include/opencv4/opencv2/imgproc/types_c.h
-opencv2/core/core_c.h
-/usr/local/include/opencv4/opencv2/imgproc/opencv2/core/core_c.h
+/usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+/usr/local/include/opencv4/opencv2/imgproc/opencv2/imgproc.hpp
 
 /usr/local/include/opencv4/opencv2/ml.hpp
 opencv2/core.hpp
@@ -1113,52 +1103,6 @@ opencv2/superres/optical_flow.hpp
 /usr/local/include/opencv4/opencv2/superres/optical_flow.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/superres/opencv2/core.hpp
-
-/usr/local/include/opencv4/opencv2/tracking.hpp
-opencv2/core/cvdef.h
-/usr/local/include/opencv4/opencv2/opencv2/core/cvdef.h
-opencv2/tracking/tracker.hpp
--
-opencv2/tracking/tldDataset.hpp
--
-
-/usr/local/include/opencv4/opencv2/tracking/feature.hpp
-opencv2/core.hpp
-/usr/local/include/opencv4/opencv2/tracking/opencv2/core.hpp
-opencv2/imgproc.hpp
-/usr/local/include/opencv4/opencv2/tracking/opencv2/imgproc.hpp
-iostream
--
-string
--
-time.h
--
-
-/usr/local/include/opencv4/opencv2/tracking/onlineBoosting.hpp
-opencv2/core.hpp
-/usr/local/include/opencv4/opencv2/tracking/opencv2/core.hpp
-
-/usr/local/include/opencv4/opencv2/tracking/onlineMIL.hpp
-opencv2/core.hpp
-/usr/local/include/opencv4/opencv2/tracking/opencv2/core.hpp
-limits
--
-
-/usr/local/include/opencv4/opencv2/tracking/tldDataset.hpp
-opencv2/core.hpp
-/usr/local/include/opencv4/opencv2/tracking/opencv2/core.hpp
-
-/usr/local/include/opencv4/opencv2/tracking/tracker.hpp
-opencv2/core.hpp
-/usr/local/include/opencv4/opencv2/tracking/opencv2/core.hpp
-opencv2/imgproc/types_c.h
-/usr/local/include/opencv4/opencv2/tracking/opencv2/imgproc/types_c.h
-feature.hpp
-/usr/local/include/opencv4/opencv2/tracking/feature.hpp
-onlineMIL.hpp
-/usr/local/include/opencv4/opencv2/tracking/onlineMIL.hpp
-onlineBoosting.hpp
-/usr/local/include/opencv4/opencv2/tracking/onlineBoosting.hpp
 
 /usr/local/include/opencv4/opencv2/video.hpp
 opencv2/video/tracking.hpp

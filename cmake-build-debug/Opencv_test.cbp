@@ -90,7 +90,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ming/git/opencv_learning/v06_Find_center.cpp">
+		<Unit filename="/home/ming/git/opencv_learning/main.cpp">
 			<Option target="Opencv_test"/>
 		</Unit>
 		<Unit filename="/home/ming/git/opencv_learning/CMakeLists.txt">
